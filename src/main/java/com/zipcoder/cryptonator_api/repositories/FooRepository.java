@@ -1,7 +1,6 @@
 package com.zipcoder.cryptonator_api.repositories;
 
-/**
- * Created by leon on 1/22/18.
- */
-public class FooRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface FooRepository extends CrudRepository {
 }
